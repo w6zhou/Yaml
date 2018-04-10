@@ -44,7 +44,7 @@ spec:
   rules:
   - http:
       paths:
-      - prefix: /wenqi
+      - path: /wenqi。*
         backend:
           serviceName: wenqi
           servicePort: 5000
