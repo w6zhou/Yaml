@@ -41,8 +41,6 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: "istio"
 spec:
-  tls:
-  - secretName: wenqi-secret
   rules:
   - http:
       paths:
